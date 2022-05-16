@@ -31,6 +31,13 @@ section{
 .navbar-nav li:not(:last-child):after {
     content: "|";
 }
+.zoom{
+    transform: scale(1);
+    transition: all 1s;
+}
+.zoom:hover{
+    transform: scale(1.05);
+}
 /* Desktop */
 @media (min-width: 768px){
     .w-50-75{
