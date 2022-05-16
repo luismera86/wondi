@@ -23,7 +23,6 @@
     color: var(--primary);
 }
 section{
-    border: 1px solid #000;
     min-height: 90vh;
 }
 /* Desktop */
