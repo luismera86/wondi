@@ -22,13 +22,16 @@
 .text--primary{
     color: var(--primary);
 }
-.w-50-75{
+.w-50-100{
     width: 50%;
 }
 section{
     min-height: 90vh;
 }
-.navbar-nav li:not(:last-child):after {
+.line::after{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 2rem;
     content: "|";
 }
 .zoom{
@@ -40,7 +43,10 @@ section{
 }
 /* Desktop */
 @media (min-width: 768px){
-    .w-50-75{
-        width: 75%;
+    .navbar-nav li:not(:last-child):after {
+        content: "|";
+    }
+    .w-50-100{
+        width: 100%;
     }
 }
