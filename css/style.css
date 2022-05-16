@@ -1,0 +1,31 @@
+/* Variables*/
+:root{
+    --primary: #569F98;
+    --secondary: #43505F;
+}
+/* General */
+.logo{
+    max-height: 6vh;
+}
+.bg--primary{
+    background-color: var(--primary);
+    color: #fff;
+}
+.bg--secondary{
+    background-color: var(--secondary);
+    color: #fff;
+}
+.bg--white{
+    background-color: #fff;
+    color: var(--secondary);
+}
+.text--primary{
+    color: var(--primary);
+}
+section{
+    border: 1px solid #000;
+    min-height: 90vh;
+}
+/* Desktop */
+@media (min-width: 768px){
+}

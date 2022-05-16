@@ -1,12 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="">
+    <!-- Title -->
+    <title>Wondi</title>
+    <!-- Fav -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
+
 <body>
-    
+    <!-- Header -->
+    <header class="container-fluid p-0 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg--primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-wondi.png" alt="Logo wondi" class="d-inline-block align-text-top logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+                        <li class="nav-item h5 m-0">
+                            <a class="nav-link text-white" href="#nosotros">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item h5 m-0">
+                            <a class="nav-link text-white" href="#que-hacemos">QUE HACEMOS</a>
+                        </li>
+                        <li class="nav-item h5 m-0">
+                            <a class="nav-link text-white" href="#portafolio">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-item h5 m-0">
+                            <a class="nav-link text-white" href="#clientes">CLIENTES</a>
+                        </li>
+                        <li class="nav-item h5 m-0">
+                            <a class="nav-link text-white" href="#contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Nosotros -->
+        <section class="container-fluid d-flex align-items-center bg--secondary" id="nosotros">
+            <div class="container" data-aos="fade-up-right" data-aos-delay="50" data-aos-offset="50">
+                <h2 class="h1">QUIÉNES SOMOS</h2>
+                <h3 class="pt-3">Somos una empresa joven dedicada al diseño, fabricación e instalación de objetos
+                    gráficos. Trabajamos
+                    para empresas, emprendedores y estudios de diseño.</h3>
+                <h3>Estamos ubicados...</h3>
+            </div>
+        </section>
+        <!-- Que hacemos -->
+        <section class="container-fluid d-flex align-items-center bg--white" id="que-hacemos">
+            <div class="container">
+                <h2 class="h1 pt-5 pt-md-0">QUÉ HACEMOS</h2>
+                <div class="row justify-content-around text-center pt-5 mt-md-5">
+                    <div class="col-12 col-md-4 col-lg-2 py-4 py-lg-0" data-aos="fade-up" data-aos-delay="50" data-aos-offset="50">
+                        <div class="w-50 m-auto">
+                            <img src="img/corte-y-grabado-laser-gris.png" alt="Corte y grabado laser"
+                                class="mw-100 bg--secondary rounded-circle">
+                        </div>
+                        <span class="slash">|</span>
+                        <h3 class="py-4">LÁSER</h3>
+                        <h4 class="d-md-none d-block">Corte, marcado y grabado de materiales no ferrosos.</h4>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 py-4 py-lg-0" data-aos="fade-up" data-aos-delay="100" data-aos-offset="50">
+                        <div class="w-50 m-auto">
+                            <img src="img/etiquetas-gris.png" alt="Etiquetas"
+                                class="mw-100 bg--secondary rounded-circle">
+                        </div>
+                        <span class="slash">|</span>
+                        <h3 class="py-4">ETIQUETAS</h3>
+                        <h4 class="d-md-none d-block">Vinillo impreso, vinillo de corte y papel autoadhesivo.</h4>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 py-4 py-lg-0" data-aos="fade-up" data-aos-delay="150" data-aos-offset="50">
+                        <div class="w-50 m-auto">
+                            <img src="img/carteleria-y-señalizacion-gris.png" alt="Carteleria y señalización"
+                                class="mw-100 bg--secondary rounded-circle">
+                        </div>
+                        <span class="slash">|</span>
+                        <h3 class="py-4">CARTELERÍA Y SEÑALIZACIÓN</h3>
+                        <h4 class="d-md-none d-block">Corpóreos de polifan, logos de acrílico y neón LED.</h4>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 py-4 py-lg-0" data-aos="fade-up" data-aos-delay="200" data-aos-offset="50">
+                        <div class="w-50 m-auto">
+                            <img src="img/vinilos-funcionales-gris.png" alt="Vinillos funcionales"
+                                class="mw-100 bg--secondary rounded-circle">
+                        </div>
+                        <span class="slash">|</span>
+                        <h3 class="py-4">VINILOS FUNCIONALES</h3>
+                        <h4 class="d-md-none d-block">Esmerilado, micro-perforado, murales y deco.</h4>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 py-4 py-lg-0 text--primary" data-aos="fade-up" data-aos-delay="250" data-aos-offset="50">
+                        <div class="w-50 m-auto">
+                            <img src="img/ecowondi-gris.png" alt="Eco Wondi" class="mw-100 bg--primary rounded-circle">
+                        </div>
+                        <span class="slash">|</span>
+                        <h3 class="py-4">ECO WONDI</h3>
+                        <h4 class="d-md-none d-block">Reducimos, reciclamos y reutilizamos.</h4>
+                    </div>
+                    <!--  -->
+                    <div class="row justify-content-around d-none d-md-flex">
+                        <div class="col-2" data-aos="fade-up" data-aos-delay="50" data-aos-offset="50">
+                            <h4>Corte, marcado y grabado de materiales no ferrosos.</h4>
+                        </div>
+                        <div class="col-2" data-aos="fade-up" data-aos-delay="100" data-aos-offset="50">
+                            <h4>Vinillo impreso, vinillo de corte y papel autoadhesivo.</h4>
+                        </div>
+                        <div class="col-2" data-aos="fade-up" data-aos-delay="150" data-aos-offset="50">
+                            <h4>Corpóreos de polifan, logos de acrílico y neón LED.</h4>
+                        </div>
+                        <div class="col-2" data-aos="fade-up" data-aos-delay="200" data-aos-offset="50">
+                            <h4>Esmerilado, micro-perforado, murales y deco.</h4>
+                        </div>
+                        <div class="col-2" data-aos="fade-up" data-aos-delay="250" data-aos-offset="50">
+                            <h4>Reducimos, reciclamos y reutilizamos.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portafolio -->
+        <section class="container-fluid" id="portafolio">
+            <div class="container">
+
+            </div>
+        </section>
+        <!-- Clientes -->
+        <section class="container-fluid" id="clientes">
+            <div class="container">
+
+            </div>
+        </section>
+        <!-- contacto -->
+        <section class="container-fluid" id="contacto">
+            <div class="container">
+
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer></footer>
+    <!-- Scripts -->
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
