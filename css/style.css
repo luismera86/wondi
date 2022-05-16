@@ -28,6 +28,9 @@
 section{
     min-height: 90vh;
 }
+.navbar-nav li:not(:last-child):after {
+    content: "|";
+}
 /* Desktop */
 @media (min-width: 768px){
     .w-50-75{
