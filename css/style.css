@@ -22,9 +22,15 @@
 .text--primary{
     color: var(--primary);
 }
+.w-50-75{
+    width: 50%;
+}
 section{
     min-height: 90vh;
 }
 /* Desktop */
 @media (min-width: 768px){
+    .w-50-75{
+        width: 75%;
+    }
 }
