@@ -7,6 +7,9 @@
 .logo{
     max-height: 6vh;
 }
+.logo__principal{
+    width: 100%;
+}
 .bg--primary{
     background-color: var(--primary);
     color: #fff;
@@ -41,8 +44,24 @@ section{
 .zoom:hover{
     transform: scale(1.05);
 }
+/* Nosotros */
+#nosotros{
+    background-image: url(../img/nosotros.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nosotros__container{
+    width: 80%;
+}
 /* Desktop */
 @media (min-width: 768px){
+    .logo__principal{
+        width: 30%;
+    }
+    .nosotros__container{
+        width: 50%;
+    }
     .navbar-nav li:not(:last-child):after {
         content: "|";
     }
