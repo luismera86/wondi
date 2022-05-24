@@ -44,12 +44,15 @@ section{
 .zoom:hover{
     transform: scale(1.05);
 }
+.ecowondi{
+    width: 50%;
+}
 /* Nosotros */
 #nosotros{
-    background-image: url(../img/nosotros.png);
+    background-image: url(../img/nosotros-mobile.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .nosotros__container{
     width: 80%;
@@ -67,5 +70,11 @@ section{
     }
     .w-50-100{
         width: 100%;
+    }
+    .ecowondi{
+        width: 25%;
+    }
+    #nosotros{
+        background-image: url(../img/nosotros.png);
     }
 }
