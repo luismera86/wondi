@@ -1,0 +1,117 @@
+footer{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background: #569F98;
+}
+
+.main_bg_gris{
+    background: #43505F;
+    
+}
+
+.icon_footer{
+    width: 3rem;
+    margin: 1rem;
+}
+
+.btn_form{
+    color: white;
+    font-weight: 600;
+    background: #569F98;
+    box-shadow: 1px 1px 5px  #43505F;
+    border-radius: 7px;
+    padding: 5px;
+    width: 70%;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+
+
+.porfolio_img{
+    width: 16rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: 1px 1px 1px 5px #323e4a;
+}
+
+/* Variables*/
+:root{
+    --primary: #569F98;
+    --secondary: #43505F;
+}
+/* General */
+.logo{
+    max-height: 6vh;
+}
+.logo__principal{
+    width: 100%;
+}
+.bg--primary{
+    background-color: var(--primary);
+    color: #fff;
+}
+.bg--secondary{
+    background-color: var(--secondary);
+    color: #fff;
+}
+.bg--white{
+    background-color: #fff;
+    color: var(--secondary);
+}
+.text--primary{
+    color: var(--primary);
+}
+.w-50-100{
+    width: 50%;
+}
+section{
+    min-height: 90vh;
+}
+.line::after{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    content: "|";
+}
+.zoom{
+    transform: scale(1);
+    transition: all 1s;
+}
+.zoom:hover{
+    transform: scale(1.05);
+}
+.ecowondi{
+    width: 50%;
+}
+/* Nosotros */
+#nosotros{
+    background-image: url(../img/nosotros-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nosotros__container{
+    width: 80%;
+}
+/* Desktop */
+@media (min-width: 768px){
+    .logo__principal{
+        width: 30%;
+    }
+    .nosotros__container{
+        width: 50%;
+    }
+    .navbar-nav li:not(:last-child):after {
+        content: "|";
+    }
+    .w-50-100{
+        width: 100%;
+    }
+    .ecowondi{
+        width: 25%;
+    }
+    #nosotros{
+        background-image: url(../img/nosotros.png);
+    }
+}
