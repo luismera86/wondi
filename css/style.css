@@ -4,9 +4,26 @@ footer{
     background: #569F98;
 }
 
-.main_bg_gris{
+#portafolio{
+    height: 100vh;
+    width: 100vw;
+    padding: 5rem;
+}
+
+#clientes{
+    height: 100vh;
+    width: 100vw;
+    padding: 5rem;
+}
+
+#contacto{
+    height: 100vh;
+    width: 100vw;
+    padding: 5rem;
+}
+
+.bg_gris{
     background: #43505F;
-    
 }
 
 .icon_footer{
