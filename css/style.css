@@ -1,60 +1,3 @@
-footer{
-    font-family: Helvetica, sans-serif;
-    color: white;
-    background: #569F98;
-}
-
-#portafolio{
-    height: 100vh;
-    width: 100vw;
-    padding: 5rem;
-}
-
-#clientes{
-    height: 100vh;
-    width: 100vw;
-    padding: 5rem;
-}
-
-#contacto{
-    height: 100vh;
-    width: 100vw;
-    padding: 5rem;
-}
-
-.bg_gris{
-    background: #43505F;
-}
-
-.icon_footer{
-    width: 3rem;
-    margin: 1rem;
-}
-
-.btn_form{
-    color: white;
-    font-weight: 600;
-    background: #569F98;
-    box-shadow: 1px 1px 5px  #43505F;
-    border-radius: 7px;
-    padding: 5px;
-    width: 70%;
-    align-self: center;
-    margin-top: 1rem;
-    transition: all 1s;
-}
-.btn_form:hover{
-    background: #6bb9b2;
-    transform: scale(1.05);
-}
-
-.porfolio_img{
-    width: 16rem;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    box-shadow: 1px 1px 1px 5px #323e4a;
-}
-
 /* Variables*/
 :root{
     --primary: #569F98;
@@ -103,6 +46,37 @@ section{
 }
 .ecowondi{
     width: 50%;
+}
+.icon_footer{
+    width: 3rem;
+    margin: 1rem;
+}
+.btn_form{
+    color: white;
+    font-weight: 600;
+    background: #569F98;
+    box-shadow: 1px 1px 5px  #43505F;
+    border-radius: 7px;
+    padding: 5px;
+    width: 70%;
+    align-self: center;
+    margin-top: 1rem;
+    transition: all 1s;
+}
+.btn_form:hover{
+    background: #6bb9b2;
+    transform: scale(1.05);
+}
+.porfolio_img{
+    width: 16rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: 1px 1px 1px 5px #323e4a;
+}
+.footer{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background: var(--primary);
 }
 /* Nosotros */
 #nosotros{
