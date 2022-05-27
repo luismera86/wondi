@@ -41,9 +41,12 @@ footer{
     width: 70%;
     align-self: center;
     margin-top: 1rem;
+    transition: all 1s;
 }
-
-
+.btn_form:hover{
+    background: #6bb9b2;
+    transform: scale(1.05);
+}
 
 .porfolio_img{
     width: 16rem;
