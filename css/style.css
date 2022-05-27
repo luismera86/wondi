@@ -112,7 +112,7 @@ section{
     width: 80%;
 }
 /* Desktop */
-@media (min-width: 768px){
+@media (min-width: 994px){
     .logo__principal{
         width: 30%;
     }
