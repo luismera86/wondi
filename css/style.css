@@ -1,134 +1,135 @@
 /* Variables*/
-:root{
+:root {
     --primary: #569F98;
     --secondary: #43505F;
 }
 /* General */
-.logo{
+section{
+    padding: 5rem;
+}
+.logo {
     max-height: 6vh;
 }
-.logo__principal{
+.logo__principal {
     width: 100%;
 }
-.bg--primary{
+.bg--primary {
     background-color: var(--primary);
     color: #fff;
 }
-.bg--secondary{
+.bg--secondary {
     background-color: var(--secondary);
     color: #fff;
 }
-.bg--white{
+.bg--white {
     background-color: #fff;
     color: var(--secondary);
 }
-.text--primary{
+.text--primary {
     color: var(--primary);
 }
-.w-50-100{
+.text--secondary{
+    color: var(--secondary);
+}
+.w-50-100 {
     width: 50%;
 }
-
-.line::after{
+.line::after {
     margin-top: 1rem;
     padding-top: 1rem;
     font-size: 2rem;
     content: "|";
 }
-.zoom{
+.zoom {
     transform: scale(1);
     transition: all 1s;
 }
-.zoom:hover{
+.zoom:hover {
     transform: scale(1.05);
 }
-.ecowondi{
+.ecowondi {
     width: 50%;
 }
-.icon_footer{
+.icon_footer {
     width: 3rem;
     margin: 1rem;
 }
-.btn_form{
+.btn_form {
+    align-self: center;
+    background: #569F98;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px #43505F;
     color: white;
     font-weight: 600;
-    background: #569F98;
-    box-shadow: 1px 1px 5px  #43505F;
-    border-radius: 7px;
-    padding: 5px;
-    width: 70%;
-    align-self: center;
     margin-top: 1rem;
+    padding: 5px;
     transition: all 1s;
+    width: 70%;
 }
-.btn_form:hover{
+.btn_form:hover {
     background: #6bb9b2;
     transform: scale(1.05);
 }
-.porfolio_img{
+.porfolio_img {
     width: 16rem;
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     box-shadow: 1px 1px 1px 5px #323e4a;
     transition: all 0.5s;
-    
 }
-
-.porfolio_img:hover{
-    
+.porfolio_img:hover {
     transform: scale(1.05)
 }
-
-.btn_portafolio{
-    
+.btn_portafolio {
     background: var(--primary);
+    border-radius: 7px;
+    border: none;
     color: white;
     padding: 0.5rem;
-    width: 9rem;
-    border-radius: 7px;
     transition: all 0.5s;
+    width: 9rem;
 }
-
-.btn_portafolio:hover{
+.btn_portafolio:hover {
     background: #6bb9b2;
     transform: scale(1.05);
 }
-
-
-
-.footer{
+.footer {
     font-family: Helvetica, sans-serif;
     color: white;
     background: var(--primary);
 }
+.aclaracion{
+    font-size: .85rem;
+}
 /* Nosotros */
-#nosotros{
+#nosotros {
     background-image: url(../img/nosotros-mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nosotros__container{
+.nosotros__container {
     width: 80%;
 }
 /* Desktop */
-@media (min-width: 994px){
-    .logo__principal{
+@media (min-width: 994px) {
+    .logo__principal {
         width: 30%;
     }
-    .nosotros__container{
+    .nosotros__container {
         width: 50%;
     }
     .navbar-nav li:not(:last-child):after {
         content: "|";
     }
-    .w-50-100{
+    .w-50-100 {
         width: 100%;
     }
-    .ecowondi{
+    .ecowondi {
         width: 25%;
     }
-    #nosotros{
+    #nosotros {
         background-image: url(../img/nosotros.png);
     }
 }
