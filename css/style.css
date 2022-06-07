@@ -31,7 +31,7 @@ section{
 .text--secondary{
     color: var(--secondary);
 }
-.w-50-100 {
+.w-50-80 {
     width: 50%;
 }
 .line::after {
@@ -51,7 +51,7 @@ section{
     width: 50%;
 }
 .icon_footer {
-    width: 3rem;
+    width: 2rem;
     margin: 1rem;
 }
 .btn_form {
@@ -102,6 +102,9 @@ section{
 .aclaracion{
     font-size: .85rem;
 }
+.fs-sm{
+    font-size: 1.3rem;
+}
 /* Nosotros */
 #nosotros {
     background-image: url(../img/nosotros-mobile.png);
@@ -123,8 +126,8 @@ section{
     .navbar-nav li:not(:last-child):after {
         content: "|";
     }
-    .w-50-100 {
-        width: 100%;
+    .w-50-80 {
+        width: 80%;
     }
     .ecowondi {
         width: 25%;
