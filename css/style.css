@@ -71,7 +71,7 @@ section{
     background: #6bb9b2;
     transform: scale(1.05);
 }
-.porfolio_img {
+ .porfolio_img {
     width: 16rem;
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -80,7 +80,7 @@ section{
 }
 .porfolio_img:hover {
     transform: scale(1.05)
-}
+} 
 .btn_portafolio {
     background: var(--primary);
     border-radius: 7px;
@@ -135,4 +135,43 @@ section{
     #nosotros {
         background-image: url(../img/nosotros.png);
     }
+}
+
+
+/* Carousel */
+
+.carousel__contenedor{
+    position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: calc(50% - 35px);
+}
+
+.carousel__anterior{
+    left: -30px;
+}
+
+.carousel__siguiente{
+    right: -30px;
+}
+
+.carousel__lista{
+    overflow: hidden;
+}
+
+.carousel__elemento{
+    padding: 2rem;
+}
+
+.carousel__elemento img{
+    width: 16rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: 1px 1px 1px 5px #323e4a;
+    transition: all 0.5s;
 }

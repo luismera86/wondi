@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+
+
 </head>
 
 <body>
@@ -171,76 +178,72 @@
             </div>
         </section>
         <!-- Portfolio -->
-        <section class="bg--secondary container-fluid d-flex justify-content-center flex-column" id="portfolio">
-            <div class="container">
+       
+        
+     
+        <section class=" bg--secondary " id="portfolio">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <h2 class=" text-white">PORTFOLIO</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <div id="carouselPortfolio" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-1 col-md-12 d-flex justify-content-center">
-                                            <img src="../img/porfolio/A.png" class="d-block m-3 porfolio_img"
-                                                alt="Sancor Salud">
-                                            <img src="../img/porfolio/B.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                            <img src="../img/porfolio/C.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                            <img src="../img/porfolio/D.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
 
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-1 col-md-12 d-flex justify-content-center">
-                                            <img src="../img/porfolio/E.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                            <img src="../img/porfolio/F.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                            <img src="../img/porfolio/G.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                            <img src="../img/porfolio/H.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-1 col-md-12 d-flex justify-content-center">
-                                            <img src="../img/porfolio/I.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                            <img src="../img/porfolio/J.png" class="d-block m-3 porfolio_img"
-                                                alt="PAMI">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev " type="button" data-bs-target="#carouselPortfolio"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
+              
+               
+                    <div class="carousel">
+                        <div class="carousel__contenedor">
+                            <button aria-level="Anterior" class="carousel__anterior">
+                                ANTERIOR
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
+                            <div class="carousel__lista">
+                
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/A.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/B.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/C.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/D.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/E.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/F.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/G.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/H.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/I.png" alt="">
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./img/porfolio/J.png" alt="">
+                                </div>
+                
+                            </div>
+                            
+                            <button type="button" aria-level="Sieguiente" class="carousel__siguiente">
+                                siguiente
                             </button>
                         </div>
+                        <div role="tablist" class="carousel__indicadores"></div>
                     </div>
-                    <div class=" d-flex justify-content-center mt-3">
-                        <button class="btn_portafolio">STALKEÁ</button>
-                    </div>
+   
                 </div>
-            </div>
-        </section>
+
+ 
+  
+
+        </section> 
         <!-- Clientes -->
         <section class="container-fluid d-flex justify-content-center flex-column" id="clientes">
             <div class="container">
@@ -377,6 +380,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 
