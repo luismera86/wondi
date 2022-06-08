@@ -15,12 +15,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
+    
 
 
 
@@ -178,131 +177,128 @@
             </div>
         </section>
         <!-- Portfolio -->
-       
-        
-     
+
         <section class=" bg--secondary " id="portfolio">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <h2 class=" text-white">PORTFOLIO</h2>
-                    </div>
-                </div>
-
-              
-               
-                    <div class="carousel">
-                        <div class="carousel__contenedor">
-                            <button aria-level="Anterior" class="carousel__anterior">
-                                ANTERIOR
-                            </button>
-                            <div class="carousel__lista">
-                
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/A.png" alt="">
+            <div class="container">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button aria-level="Anterior" class="carousel__anterior">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__lista">
+        
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/A.png" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ...
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                      <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/B.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/C.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/D.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/E.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/F.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/G.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/H.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/I.png" alt="">
-                                </div>
-                                <div class="carousel__elemento">
-                                    <img src="./img/porfolio/J.png" alt="">
-                                </div>
-                
-                            </div>
-                            
-                            <button type="button" aria-level="Sieguiente" class="carousel__siguiente">
-                                siguiente
-                            </button>
+                              </div>
                         </div>
-                        <div role="tablist" class="carousel__indicadores"></div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/B.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/C.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/D.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/E.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/F.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/G.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/H.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/I.png" alt="">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="./img/porfolio/J.png" alt="">
+                        </div>
+        
                     </div>
-   
-                </div>
-
- 
-  
-
+                    
+                    <button type="button" aria-level="Sieguiente" class="carousel__siguiente">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                
+            <div class=" d-flex justify-content-center mt-3">
+                <button class="btn_portafolio">STALKEÁ</button>
+            </div>
         </section> 
         <!-- Clientes -->
-        <section class="container-fluid d-flex justify-content-center flex-column" id="clientes">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2>NOS ELIGEN</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div id="carouselClientes" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col d-flex justify-content-center">
-                                            <img src="../img/noselijen/1 pami.png" class="d-block w-25" alt="PAMI">
-                                            <img src="../img/noselijen/2 sancor.png" class="d-block w-25"
-                                                alt="SanCor Salud">
-                                            <img src="../img/noselijen/3 taperitas.png" class="d-block w-25"
-                                                alt="Las Taperitas">
-                                            <img src="../img/noselijen/4 atilra.png" class="d-block w-25" alt="ATILRA">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col d-flex justify-content-center">
-                                            <img src="../img/noselijen/5 grafils.png" class="d-block w-25"
-                                                alt="Grafils">
-                                            <img src="../img/noselijen/6 utn.png" class="d-block w-25" alt="UTN">
-                                            <img src="../img/noselijen/7 unraf.png" class="d-block w-25" alt="UNRaf">
-                                            <img src="../img/noselijen/8 vmc.png" class="d-block w-25" alt="VMC">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col d-flex justify-content-center">
-                                            <img src="../img/noselijen/9 inelpa.png" class="d-block w-25" alt="Inelpa">
-                                            <img src="../img/noselijen/10 jit.png" class="d-block w-25" alt="JIT">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev " type="button" data-bs-target="#carouselClientes"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselClientes"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+        <section  id="clientes">
+            <div class="col">
+                <h2>NOS ELIGEN</h2>
             </div>
+
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button aria-level="Anterior" class="carousel__anterior__cliente">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__lista__cliente">
+        
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/1 pami.png" alt="" >
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/2 sancor.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/3 taperitas.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/4 atilra.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/5 grafils.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/6 utn.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/7 unraf.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/8 vmc.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/9 inelpa.png" alt="">
+                        </div>
+                        <div class="carousel__elemento__cliente">
+                            <img src="./img/noselijen/10 jit.png" alt="">
+                        </div>
+        
+                    </div>
+                    
+                    <button type="button" aria-level="Sieguiente" class="carousel__siguiente__cliente">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                
+                
+
         </section>
         <!-- contacto -->
         <section class="bg--secondary container-fluid d-flex justify-content-center flex-column" id="contacto">
@@ -381,6 +377,7 @@
         AOS.init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/index.js"></script>
 </body>
 
