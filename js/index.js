@@ -13,16 +13,16 @@ window.addEventListener('load', function () {
 		},
 		responsive: [
 			{
-				
+
 				breakpoint: 600,
 				settings: {
-					
+
 					slidesToShow: 2,
 					slidesToScroll: 2,
 				},
 			},
 			{
-				
+
 				breakpoint: 1024,
 				settings: {
 					slidesToShow: 4,
@@ -42,26 +42,26 @@ window.addEventListener('load', function () {
 		slidesToScroll: 1,
 		draggable: true,
 		dots: '.carousel__indicadores__cliente',
-        duration: 0.5,
+		duration: 0.5,
 		arrows: {
 			prev: '.carousel__anterior__cliente',
 			next: '.carousel__siguiente__cliente',
 		},
 		responsive: [
 			{
-				
+
 				breakpoint: 600,
 				settings: {
-					
+
 				},
 			},
 			{
-				
+
 				breakpoint: 1024,
 				settings: {
 					slidesToShow: 4,
 					slidesToScroll: 4,
-                   
+
 				},
 			},
 		],

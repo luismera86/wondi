@@ -1,5 +1,4 @@
-
-*{
+* {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -8,57 +7,33 @@
     --primary: #569F98;
     --secondary: #43505F;
 }
-/* General */
-section{
-    padding: 5rem;
-}
-.logo {
-    max-height: 6vh;
-}
-.logo__principal {
-    width: 100%;
-}
+
+/* Backgrounds */
 .bg--primary {
     background-color: var(--primary);
     color: #fff;
 }
+
 .bg--secondary {
     background-color: var(--secondary);
     color: #fff;
 }
+
 .bg--white {
     background-color: #fff;
     color: var(--secondary);
 }
+
+/* Text color */
 .text--primary {
     color: var(--primary);
 }
-.text--secondary{
+
+.text--secondary {
     color: var(--secondary);
 }
-.w-50-80 {
-    width: 50%;
-}
-.line::after {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    font-size: 2rem;
-    content: "|";
-}
-.zoom {
-    transform: scale(1);
-    transition: all 1s;
-}
-.zoom:hover {
-    transform: scale(1.05);
-}
-.ecowondi {
-    width: 50%;
-}
-.icon_footer {
-    width: 2rem;
-    margin: 1rem;
-}
+
+/* Buttons */
 .btn_form {
     align-self: center;
     background: #569F98;
@@ -72,20 +47,25 @@ section{
     transition: all 1s;
     width: 70%;
 }
+
 .btn_form:hover {
     background: #6bb9b2;
     transform: scale(1.05);
 }
- .porfolio_img {
+
+/* Portafolio */
+.porfolio_img {
     width: 16rem;
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     box-shadow: 1px 1px 1px 5px #323e4a;
     transition: all 0.5s;
 }
+
 .porfolio_img:hover {
     transform: scale(1.05)
-} 
+}
+
 .btn_portafolio {
     background: var(--primary);
     border-radius: 7px;
@@ -95,21 +75,12 @@ section{
     transition: all 0.5s;
     width: 9rem;
 }
+
 .btn_portafolio:hover {
     background: #6bb9b2;
     transform: scale(1.05);
 }
-.footer {
-    font-family: Helvetica, sans-serif;
-    color: white;
-    background: var(--primary);
-}
-.aclaracion{
-    font-size: .85rem;
-}
-.fs-sm{
-    font-size: 1.3rem;
-}
+
 /* Nosotros */
 #nosotros {
     background-image: url(../img/nosotros-mobile.png);
@@ -117,40 +88,108 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .nosotros__container {
     width: 80%;
 }
+
+/* Contacto */
+.aclaracion {
+    font-size: .85rem;
+}
+
+/* Footer */
+.footer {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background: var(--primary);
+}
+
+/* General */
+section {
+    padding: 5rem;
+}
+
+.logo {
+    max-height: 6vh;
+}
+
+.logo__principal {
+    width: 100%;
+}
+
+.w-50-80 {
+    width: 50%;
+}
+
+.line::after {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    content: "|";
+}
+
+.ecowondi {
+    width: 50%;
+}
+
+.icon_footer {
+    width: 2rem;
+    margin: 1rem;
+}
+
+.fs-sm {
+    font-size: 1.3rem;
+}
+
+.zoom {
+    transform: scale(1);
+    transition: all 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
 /* Desktop */
 @media (min-width: 994px) {
+
+    /* General */
     .logo__principal {
         width: 30%;
     }
-    .nosotros__container {
-        width: 50%;
-    }
+
     .navbar-nav li:not(:last-child):after {
         content: "|";
     }
+
     .w-50-80 {
         width: 80%;
     }
+
     .ecowondi {
         width: 25%;
     }
+
+    /* Nosotros */
     #nosotros {
         background-image: url(../img/nosotros.png);
+    }
+
+    .nosotros__container {
+        width: 50%;
     }
 }
 
 
 /* Carousel */
 
-.carousel__contenedor{
+.carousel__contenedor {
     position: relative;
 }
 
 .carousel__anterior,
-.carousel__siguiente{
+.carousel__siguiente {
     position: absolute;
     display: block;
     cursor: pointer;
@@ -158,35 +197,35 @@ section{
     width: 80px;
     height: 80px;
     line-height: 50px;
-	text-align: center;
-	background: none;
-	color: #fff;
-	opacity: 20%;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
     border: none;
 }
 
 .carousel__anterior:hover,
 .carousel__siguiente:hover {
-	opacity: 100%;
+    opacity: 100%;
 }
 
 .carousel__anterior {
-	left: -70px;
+    left: -70px;
 }
 
 .carousel__siguiente {
-	right: -70px;
+    right: -70px;
 }
 
-.carousel__lista{
+.carousel__lista {
     overflow: hidden;
 }
 
-.carousel__elemento{
+.carousel__elemento {
     padding: 1rem;
 }
 
-.carousel__elemento img{
+.carousel__elemento img {
     width: 16rem;
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -194,19 +233,19 @@ section{
     transition: all 0.5s;
 }
 
-.carousel__elemento img:hover{
+.carousel__elemento img:hover {
     background: #6bb9b2;
     transform: scale(1.05);
 }
 
 /* Carousel Clientes */
 
-.carousel__lista__cliente{
+.carousel__lista__cliente {
     overflow: hidden;
 }
 
 .carousel__anterior__cliente,
-.carousel__siguiente__cliente{
+.carousel__siguiente__cliente {
     position: absolute;
     display: block;
     cursor: pointer;
@@ -214,22 +253,22 @@ section{
     width: 80px;
     height: 80px;
     line-height: 50px;
-	text-align: center;
-	background: none;
-	color: rgb(0, 0, 0);
-	opacity: 20%;
+    text-align: center;
+    background: none;
+    color: rgb(0, 0, 0);
+    opacity: 20%;
     border: none;
 }
 
 .carousel__anterior__cliente:hover,
 .carousel__siguiente__cliente:hover {
-	opacity: 100%;
+    opacity: 100%;
 }
 
-.carousel__anterior__cliente{
-	left: -70px;
+.carousel__anterior__cliente {
+    left: -70px;
 }
 
 .carousel__siguiente__cliente {
-	right: -70px;
+    right: -70px;
 }
